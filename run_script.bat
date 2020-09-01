@@ -1,0 +1,1 @@
+node "C:\kiosk_itatools\locker\close.js"

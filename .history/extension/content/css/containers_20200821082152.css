@@ -1,0 +1,160 @@
+div.additional-menu {
+  width: 98%;
+  height: 10vh;
+  display: flex;
+  position: fixed;
+  bottom: 1%;
+  margin: 0% 1% 0% 1%;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000 !important;
+  font-family: Calibri, sans-serif, Arial;
+  font-size: 16px !important;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  background: #014172;
+}
+div.additional-menu-timer__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+  font-weight: 100;
+  font-family: inherit;
+}
+div.additional-menu.down {
+  bottom: 1%;
+}
+div.additional-menu.up {
+  top: 3%;
+}
+div.additional-menu.hide {
+  display: flex !important;
+  animation: hide 0.2s linear;
+  left: 96.2%;
+}
+div.additional-menu.show {
+  display: flex !important;
+  left: 0%;
+  animation: unhide 0.2s linear;
+}
+
+div.tabs-container {
+  font-family: Calibri, sans-serif, Arial;
+  display: flex;
+  position: fixed;
+  overflow-y: scroll;
+  left: 84%;
+  width: 15%;
+  height: 50% !important;
+  color: white;
+  z-index: 10000;
+  background: #014172;
+  bottom: 11.2vh !important;
+}
+div.tabs-container.down {
+  bottom: 11.2vh !important;
+}
+div.tabs-container.up {
+  top: 13.2vh !important;
+}
+div.tabs-container::-webkit-scrollbar {
+  width: 20px;
+}
+div.tabs-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+div.tabs-container::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+div.tabs-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+div.tabs-container > ul {
+  width: 100%;
+  padding: 0;
+}
+div.tabs-container > ul > li {
+  font-size: 2em;
+  font-weight: 100;
+  padding: 3%;
+  margin: 3%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+div.password__container {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 100000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.header__container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 2%;
+}
+
+div.title__container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.title__container > h2 {
+  color: white;
+  font-size: 3em;
+}
+div.close-button__container {
+  display: flex;
+}
+div.password-inputs__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 5%;
+  width: 50%;
+  height: 50%;
+}
+
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\ama\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\avo\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\awo\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\dpr\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\dwo2\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\fta\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\gga\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\gplAppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\gpr\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\gsk\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\ire\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\kko\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\lbo\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\mjab\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\mmad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\ona\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\pan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\tma\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\mpod\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\msk\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\kso\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\jst\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\pst\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "C:\kiosk_itatools\Google Chrome.lnk "C:\Users\ttr\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+
+
+pause

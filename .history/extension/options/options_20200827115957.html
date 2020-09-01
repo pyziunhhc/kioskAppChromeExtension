@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+
+<head>
+    <title>Ustawienia Kiosk ITA Tools</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="options.css" />
+    <script src="options.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="main__container">
+        <<h2>Strona konfiguracyjna</h2>
+        <div class="options__container">
+            <div class="option page-list__container">
+                <h3>Strony</h3>
+                <div class="added-pages">
+                    <div class="title">
+                        <h3>Dodane</h3>
+                    </div>
+
+                    <ul class="added-pages-list__ul">
+                    </ul>
+
+                </div>
+                <input type="text" class="page page-value__input" placeholder="Adres strony..." name="Adres strony" />
+                <input type="text" class="page page-name__input" placeholder="Nazwa strony..." name="Nazwa strony" />
+                <button class="page-save__button">Dodaj</button>
+                <!-- <div class="blocked-pages">
+                    <div class="title">
+                        <h3>Zablokowane</h3>
+                    </div>
+
+                    <ul class="blocked-pages-list__ul">
+                    </ul>
+                </div> -->
+                <!-- <input type="text" class="page blocked-page-value__input" placeholder="Adres strony..." />
+                <button class="bloeck-page-save__button">Dodaj</button> -->
+            </div>
+            <div class="option bar-configuration__container">
+                <h3>Konfiguracja paska</h3>
+                <label for="bar-color">Kolor paska:</label>
+                <input type="color" class="color bar-background-color__input" name="bar-color" value="#014172" />
+                <!-- <label for="bar-color">Kolor tekstu:</label>
+                <input type="color" class="color bar-text-color__input" name="bar-color" value="#014172" /> -->
+                <label for="bar-place">Miejsce:</label>
+                <select class="bar-location" name="bar-location">
+                    <option value="up" class="bar-place__option">Góra</option>
+                    <option value="down" class="bar-place__option" selected>Dół</option>
+                    <option value="left" class="bar-place__option">Lewo</option>
+                    <option value="right" class="bar-place__option">Prawo</option>
+                </select>
+                <button class="bar-save__button">Zmień</button>
+            </div>
+            <div class="option card-configuration">
+                <h2>Dodatkowe</h2>
+                <div class="open-links-configuration__container">
+                    <h3>Otwieranie linków</h3>
+                    <label for="new-tab">Nowa karta<input class="open-card-option" type=radio value="new-tab"
+                            name="how-to-open-link" /></label>
+
+                    <label for="new-tab">Ta sama karta<input class="open-card-option" type=radio value="same-tab"
+                            name="how-to-open-link" /></label>
+                    <button class="open-tabs-save__button">Zapisz</button>
+                </div>
+                <div class="show-tabs-configuration__container">
+                    <h3>Czy pokazywać karty</h3>
+                    <label for="show-tabs">Tak<input class="show-card-option" type=radio value="show"
+                            name="show-tabs" /></label>
+
+                    <label for="show-tabs">Nie<input class="show-card-option" type=radio value="dont-show"
+                            name="show-tabs" /></label>
+                    <button class="show-tabs-save__button">Zapisz</button>
+                </div>
+                <div class="padlock-option-configuration__container">
+                    <h3>Kłódka</h3>
+                    <label for="padlock-option">Zablokuj<input class="padlock-option" type=radio value="lock"
+                            name="padlock-option" /></label>
+
+                    <label for="padlock-option">Wyloguj<input class="padlock-option" type=radio value="logoff"
+                            name="padlock-option" /></label>
+                    <button class="padlock-option-save__button">Zapisz</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

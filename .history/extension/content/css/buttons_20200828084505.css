@@ -1,0 +1,160 @@
+button.options {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: none !important;
+  z-index: 10000;
+  border: none;
+}
+button.options:hover {
+  background: none !important;
+  cursor: default;
+}
+button.options:focus {
+  outline: none;
+  border: none;
+}
+
+button.additional-menu__button {
+  height: 100% !important;
+  flex: 1 !important;
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  padding: 0.5% !important;
+  background: none !important;
+  border: none !important;
+
+  overflow: hidden !important;
+  color: white !important;
+  font: 100 1.2em inherit !important;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 1) !important;
+}
+button.additional-menu__button.hide {
+  display: block !important;
+  flex: 0.32 !important;
+  padding: 0 !important;
+  background: none !important;
+  font-size: 2.5em !important;
+  font-weight: bold !important;
+}
+button.additional-menu__button.back,
+button.additional-menu__button.forward,
+button.additional-menu__button.refresh,
+button.additional-menu__button.close {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex: 0.32 !important;
+  border-radius: 0px !important;
+  font-size: 2.5em !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+/* button.additional-menu__button.close {
+  background: rgba(255, 0, 0, 0.8) !important;
+} */
+button.additional-menu__button.refresh > span:hover {
+  animation: rotate 1.5s infinite linear;
+}
+button.additional-menu__button.forward > span:hover {
+  
+}
+button.additional-menu__button:hover,
+button.additional-menu__button.hide:hover,
+button.additional-menu__button.lock:hover,
+div.tabs-container > ul > li:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+button.additional-menu__button.lock {
+  background: none !important;
+  border: none !important;
+  font-size: 2.5em !important;
+}
+
+button.show-tabs__button {
+  background: none !important;
+  border: none !important;
+  color: white;
+  font-size: 2em;
+  width: 2% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: inline-block !important;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0) !important;
+}
+button.show-tabs__button:focus {
+  outline: none;
+}
+button.show-tabs__button.show {
+  transform: rotate(0deg);
+  display: inline-block !important;
+  animation: unrotateButton 0.3s ease;
+}
+button.show-tabs__button.hidden {
+  transform: rotate(180deg);
+  display: inline-block !important;
+  animation: rotateButton 0.3s ease;
+}
+button.show-tabs__button:hover {
+  cursor: pointer;
+  background: none !important;
+  color: rgba(255, 255, 255, 0.8);
+}
+span.close {
+  background: red;
+  height: 20%;
+  padding: 5%;
+  margin-left: 5%;
+  box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.75);
+}
+span.close:hover {
+  cursor: pointer;
+  background: rgba(255, 0, 0, 0.8);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+}
+/* button.additional-menu__button.close:hover {
+  background: rgba(255, 0, 0) !important;
+} */
+
+div.header__container > button {
+  width: 3%;
+  height: 100%;
+  padding: 3.6% !important;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 0, 0, 1) !important;
+  border: none;
+  border-radius: 0px;
+  color: white;
+  font-size: 2.5em !important;
+}
+div.header__container > button:hover {
+  cursor: pointer;
+  background: rgba(255, 0, 0, 0.8) !important;
+}
+
+div.password-inputs__container > button {
+  border: none !important;
+  background: none !important;
+  border: 1px solid white !important;
+  color: white !important;
+  padding: 2% !important;
+  width: 20% !important;
+  margin-top: 2% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.password-inputs__container > button:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);
+}

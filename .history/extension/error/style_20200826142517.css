@@ -1,0 +1,148 @@
+.error-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: rgba(247, 247, 247);
+}
+
+.error {
+  display: flex;
+  position: relative;
+  width: 80%;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin-bottom: 5%;
+}
+
+.title > h1 {
+  font-size: 7em;
+}
+
+.screaming-boy,
+.speech-cloud {
+  width: 20%;
+  position: absolute;
+}
+
+.screaming-boy {
+  top: 39%;
+  left: 37%;
+}
+
+.speech-cloud {
+  width: 32%;
+  left: 48.7%;
+  top: -4%;
+}
+
+.speech-cloud__text {
+  z-index: 1000;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 0.7%;
+  left: 57.2%;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+.speech-cloud__text > p {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  text-align: center;
+}
+
+.speech-cloud__text > p > span {
+  font-size: 4em;
+  font-weight: bold;
+  color: rgb(194, 38, 46);
+  display: inline-block;
+}
+span.letter.animate-letter-1 {
+  animation: animateLetter 3s ease 0.2s infinite;
+}
+span.letter.animate-letter-2 {
+  animation: animateLetter 3s ease 1s infinite;
+}
+span.letter.animate-letter-3 {
+  animation: animateLetter 3s ease 1.5s infinite;
+}
+.speech-cloud__text > button.back {
+  font-size: 1em;
+  border: none;
+  width: 100%;
+  background: rgb(194, 38, 46);
+  border-radius: 50px;
+  color: white;
+  margin-top: 10%;
+  padding: 2%;
+  animation: shake 0.2s ease 5s infinite;
+}
+
+.speech-cloud__text > button.back:hover {
+  cursor: pointer;
+  background: rgba(194, 38, 46, 0.7);
+}
+
+.speech-cloud__text > button.back:focus {
+  outline: none;
+}
+@media screen and (min-width: 1921px) {
+  .screaming-boy,
+  .speech-cloud {
+    width: 13%;
+    position: absolute;
+  }
+
+  .speech-cloud {
+    width: 26%;
+    left: 43.7%;
+    top: -20%;
+  }
+
+  .speech-cloud__text {
+    top: -11.3%;
+    left: 51.1%;
+  }
+}
+
+@keyframes animateLetter {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: rotate(-1deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1deg);
+  }
+}

@@ -1,0 +1,128 @@
+div.additional-menu {
+  font-family: Calibri, sans-serif, Arial;
+  display: flex;
+  position: fixed;
+  width: 98%;
+  height: 10vh;
+  margin: 0% 1% 0% 1%;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  background: #014172;
+  font-size: 16px !important;
+  z-index: 10000 !important;
+}
+div.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size:2em;
+  font-weight: 100;
+}
+div.additional-menu.down {
+  bottom: 1%;
+}
+div.additional-menu.up {
+  top: 3%;
+}
+div.additional-menu.hide {
+  display: flex !important;
+  animation: hide 0.2s linear;
+  left: 96.2%;
+}
+div.additional-menu.show {
+  display: flex !important;
+  left: 0%;
+  animation: unhide 0.2s linear;
+}
+
+div.tabs-container {
+  font-family: Calibri, sans-serif, Arial;
+  display: flex;
+  position: fixed;
+  overflow-y: scroll;
+  left: 84%;
+  width: 15%;
+  height: 50% !important;
+  color: white;
+  z-index: 10000;
+}
+div.tabs-container.down {
+  bottom: 11.2vh !important;
+}
+div.tabs-container.up {
+  top: 13.2vh !important;
+}
+div.tabs-container::-webkit-scrollbar {
+  width: 20px;
+}
+div.tabs-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+div.tabs-container::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+div.tabs-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+div.tabs-container > ul {
+  width: 100%;
+  padding: 0;
+}
+div.tabs-container > ul > li {
+  font-size: 2em;
+  font-weight: 100;
+  padding: 3%;
+  margin: 3%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+div.password__container {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 100000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.header__container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 2%;
+}
+
+div.title__container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.title__container > h2 {
+  color: white;
+  font-size: 3em;
+}
+div.close-button__container {
+  display: flex;
+}
+div.password-inputs__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 5%;
+  width: 50%;
+  height: 50%;
+}

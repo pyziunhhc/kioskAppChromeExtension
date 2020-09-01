@@ -1,0 +1,164 @@
+body {
+  font-family: "Arial";
+  font-weight: 100;
+  height: 100vh;
+  margin: 0;
+}
+h3 {
+  font-size: 2em;
+  font-weight: 100;
+}
+a {
+  color: #014172;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+button {
+  width: 50%;
+  background: none;
+  background: #014172;
+  color: white;
+  border: none;
+  font-size: 1.3em;
+  padding: 2.3%;
+  margin: 3%;
+}
+button:hover {
+  cursor: pointer;
+  background: rgba(1, 65, 114, 0.9);
+}
+input::f
+
+.main__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+}
+.options--title {
+  background: #014172;
+}
+.main__container > .options--title > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4em;
+  font-weight: 100;
+  color: white;
+}
+.options__container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.option {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  border-right: 0.1px solid #014172;
+}
+.option > h2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  font-size: 3em;
+  font-weight: 400;
+  color: white;
+  background: #014172;
+}
+.page {
+  width: 60%;
+  margin: 2%;
+  padding: 1%;
+  font-size: 1em;
+  color: #014172;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #014172;
+}
+.page:focus {
+  outline: none;
+  border-bottom: 4px solid #014172;
+}
+.page::placeholder {
+  color: #014172;
+  font-weight: 100;
+}
+.added-pages {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.added-pages > .title {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-right: 2px solid #014172;
+  padding-right: 6%;
+  color: #014172;
+}
+.added-pages-list__ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.added-pages-list__ul > li {
+  width: 100%;
+  padding: 4%;
+  margin: 1%;
+}
+.added-pages-list__ul > li > a + span {
+  margin-left: 5%;
+  background-color: rgba(255, 0, 0, 1);
+  color: white;
+  font-weight: bold;
+  padding: 3%;
+}
+.added-pages-list__ul > li > a + span:hover {
+  cursor: pointer;
+  background: rgba(255, 0, 0, 0.7);
+}
+.color {
+  margin: 4%;
+  width: 10%;
+  height: 10%;
+  box-shadow: 0px 0px 20px 0px #014172;
+}
+.color:hover {
+  cursor: pointer;
+}
+select.bar-location {
+  border: none;
+  background: none;
+  color: #014172;
+  font-weight: bold;
+  border-bottom: 1px solid #014172;
+  padding: 2%;
+  font-size: 2em;
+  text-align: center;
+}
+select.bar-location:hover {
+  cursor: pointer;
+}
+select.bar-location:focus {
+  color: #014172;
+  outline: none;
+}
+.bar-configuration__container > select,
+.bar-configuration__container > button {
+  width: 50%;
+}
+.open-links-configuration__container,
+.show-tabs-configuration__container,
+.padlock-option-configuration__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

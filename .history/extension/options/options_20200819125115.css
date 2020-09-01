@@ -1,0 +1,147 @@
+body {
+  font-family:'Arial';
+  font-weight: 100;
+  height: 100vh;
+}
+h3 {
+  font-size: 2em;
+  font-weight: 100;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+button {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 2.3%;
+  margin: 3%;
+}
+button:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+}
+.main__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #014172;
+  color: white;
+  font-size: 1.5em;
+}
+.main__container > h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4em;
+  font-weight: 100;
+}
+.options__container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.option {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  border-right: 0.1px solid white;
+}
+.option > h3 {
+  font-size: 3em;
+}
+.page {
+  width: 60%;
+  margin: 2%;
+  padding: 1%;
+  font-size: 1em;
+  color: white;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+}
+.page:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);
+}
+.page::placeholder {
+  color: white;
+  font-weight: 100;
+}
+.added-pages {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.added-pages > .title {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid white;
+  padding-right: 6%;
+}
+.added-pages-list__ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.added-pages-list__ul > li {
+  width: 100%;
+  padding: 4%;
+  margin: 1%;
+  text-align: center;
+}
+.added-pages-list__ul > li > a + span {
+  margin-left: 5%;
+  background-color: red;
+  font-weight: bold;
+  padding: 3%;
+}
+.added-pages-list__ul > li > a + span:hover {
+  cursor: pointer;
+  background: rgba(255, 0, 0, 0.8);
+}
+.color {
+  margin: 4%;
+  width: 10%;
+  height: 10%;
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 1);
+}
+.color:hover {
+  cursor: pointer;
+}
+select.bar-location {
+  border: none;
+  background: none;
+  color: white;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+  padding: 2%;
+}
+select.bar-location:hover {
+  cursor: pointer;
+}
+select.bar-location:focus {
+  color: black;
+  outline: none;
+}
+.bar-configuration__container > select,
+.bar-configuration__container > button {
+  width: 50%;
+}
+.open-links-configuration__container,
+.show-tabs-configuration__container,
+.padlock-option-configuration__container {
+  display: flex;
+  flex-direction: column;
+}
+.card-configuration > h2 {
+  font-weight: 100;
+  font-size: 3em;
+}

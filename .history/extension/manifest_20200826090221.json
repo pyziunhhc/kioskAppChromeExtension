@@ -1,0 +1,25 @@
+{
+  "name": "Kiosk ITA Tools",
+  "version": "1.0",
+  "description": "Aplikacja kiosk",
+  "author": "pyziu",
+  "manifest_version": 2,
+  "homepage_url": "https://b2b-itatools.pl",
+  "browser_action":{
+    "default_popup": ""
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "css": ["content/css/containers.css", "content/css/buttons.css", "content/css/inputs.css", "content/css/animations.css"],
+    "js": ["content/content_script.js", "content/button.js"]
+  }],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["storage", "activeTab", "tabs", "webNavigation", "history"],
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": false
+  }
+}
