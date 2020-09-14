@@ -2,5 +2,7 @@
 
 <div>
 Application was made to presents marketing items on trade fairs.
-
+REQUIREMENTS:
+  -nodeJS
+  -Chrome
 </div>
