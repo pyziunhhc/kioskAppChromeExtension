@@ -4,6 +4,7 @@
 Application was made to presents marketing items on trade fairs.
   </br>
 REQUIREMENTS:
+</br>
   -nodeJS
   -Chrome
 </div>
