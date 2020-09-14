@@ -3,7 +3,7 @@
 <div>
 Application was made to presents marketing items on trade fairs.
   </br>
-<h2>REQUIREMENTS</h2>:
+<h2>REQUIREMENTS:</h2>
 </br>
   <ul>
   <li>nodeJS</li>
