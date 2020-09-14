@@ -3,8 +3,10 @@
 <div>
 Application was made to presents marketing items on trade fairs.
   </br>
-REQUIREMENTS:
+<h2>REQUIREMENTS</h2>:
 </br>
-  -nodeJS
-  -Chrome
+  <ul>
+  <li>nodeJS</li>
+  <li>Chrome</li>
+  </ul>
 </div>
