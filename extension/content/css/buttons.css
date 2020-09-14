@@ -24,7 +24,7 @@ button.additional-menu__button {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  margin: 0 !important;
+  margin: 0% 0.5% 0% 0.5%!important;
   padding: 0.5% !important;
   background: none !important;
   border: none !important;
@@ -32,14 +32,15 @@ button.additional-menu__button {
   color: white !important;
   font: 100 1.2em inherit !important;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 1) !important;
+
 }
 button.additional-menu__button.hide {
   display: block !important;
   flex: 0.42 !important;
-  padding: 0 !important;
   background: none !important;
   font-size: 2.5em !important;
   font-weight: bold !important;
+  margin: 0 !important;
 }
 button.additional-menu__button.back,
 button.additional-menu__button.forward,
@@ -60,7 +61,12 @@ button.additional-menu__button.refresh > span:hover {
   animation: rotate 1.5s infinite linear;
 }
 button > span {
-  font-size: 1.5em;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-size: 1em !important;
+  align-items: center;
+  justify-content: center;
 }
 button.additional-menu__button.forward > span,
 button.additional-menu__button.back > span {
